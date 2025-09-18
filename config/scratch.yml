@@ -1,0 +1,15 @@
+# Configuration file for file paths
+paths:
+  # Input files (user should set these)
+  training_data: ""  # Path to training data file
+  test_data: ""      # Path to test data file
+
+  # Output directories
+  output_dir: "./data/output"
+  model_dir: "./models"
+  processed_dir: "./data/processed"
+
+  # Generated files
+  generated_passwords: "./data/output/generated_passwords.txt"
+  attacked_passwords: "./data/output/successfully_attacked_passwords.txt"
+  analysis_results: "./data/output/analysis_results.txt"
